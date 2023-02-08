@@ -1,11 +1,15 @@
 import React from 'react';
 import './Home.css';
+import ImageCorosoul from './ImageCorosoul';
+import Slider from "react-slick";
 import Product from './Product';
 function Home() {
   return (
     <div className='home'>
       <div className="home__container">
-        <img src="https://m.media-amazon.com/images/I/715YfvGLU9L._SX3000_.jpg" alt="" className='home_image' />
+        <ImageCorosoul />
+          {/* <img src="https://m.media-amazon.com/images/I/71usv3CIbTL._SX3000_.jpg" alt="" className='home_image'/> */}
+
         <div className="home__row">
           <Product
             id="1"
