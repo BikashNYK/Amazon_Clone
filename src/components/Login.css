@@ -1,0 +1,90 @@
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__Logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login__container {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.login__container h1 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 10px !important;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    padding-bottom: 4px;
+}
+
+.login__container form h5 {
+    margin-bottom: 5px;
+}
+
+.login__container form input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+    outline: 0;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin: 0;
+        font-size: 100%;
+        vertical-align: middle;
+}
+
+.login__container p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login__signInBtn {
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 29px;
+    border-radius: 2px;
+    border: 1px solid ;
+    cursor: pointer;
+}
+
+.login__signInBtn:hover{
+    background: linear-gradient(to bottom, #efc76a, #f0b318);
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.login__regBtn {
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+}
